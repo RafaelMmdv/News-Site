@@ -94,6 +94,16 @@ p{
 .px-2 {padding-left: 0.6rem; padding-right:0.6rem}
 .px-2 {padding-right: 0.6rem; padding-left:0.6rem}
 
+ .m-1 {margin: 0.5rem;}
+ .m-2 {margin: 0.6rem;}
+ .m-3 {margin: 0.8rem;}
+ .m-4 {margin: 1rem;}
+
+ .mb-1 {margin-bottom: 0.5rem;}
+ .mb-1 {margin-bottom: 0.6rem;}
+ .mb-1 {margin-bottom: 0.8rem;}
+ .mb-1 {margin-bottom: 1rem;}
+
 .card {
     background-color: #fff;
     padding: 1rem;
@@ -102,6 +112,16 @@ p{
 .card-primary {
     background-color:var(--primary-color) ;
     padding: 1rem;
+}
+
+.category {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    padding: .4rem .6rem;
+    border-radius: 15px;
+    margin-bottom: .5rem;
 }
 
 /* navbar */
@@ -127,7 +147,7 @@ p{
 #main-nav ul {
     display: flex;
     justify-self: start;
-}
+} 
 
 #main-nav ul li a {
     padding: 0.6rem;
@@ -146,4 +166,39 @@ p{
 
 #main-nav .social-icons {
     justify-self: end;
+}
+
+/* header */
+
+#header {
+    color: #fff;
+    background: #333;
+    padding: 2rem;
+    position: relative;
+}
+
+#header::before {
+    content: '';
+    background:url('/img/rowing.jpeg')no-repeat center center/cover ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+#header .header-container {
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+#header .header-content {
+    z-index: 2;
+}
+
+#header .header-content p{
+    margin-bottom: 1.6rem;
 }
