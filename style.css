@@ -65,6 +65,7 @@ p{
 .btn-light {background-color:var(--light-color) ;}
 .btn-dark {background-color:var(--dark-color) ;}
 .btn-primary {background-color:var(--primary-color) ;}
+.bg-secondary {background-color:var(--secondary-color);}
 
 .btn:hover {opacity: 0.8;}
 
@@ -116,7 +117,6 @@ p{
 
 .category {
     display: inline-block;
-    color: #fff;
     font-size: 1.3rem;
     letter-spacing: 1px;
     padding: .4rem .6rem;
@@ -201,4 +201,12 @@ p{
 
 #header .header-content p{
     margin-bottom: 1.6rem;
+}
+
+/* articles */
+
+#main-articles .articles-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
 }
