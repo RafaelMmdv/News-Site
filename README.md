@@ -1,3 +1,3 @@
 # News-Site
 Netlify Link:
-https://beamish-lokum-d8e3b0.netlify.app/
+https://news-site-bd874a5.netlify.app/
