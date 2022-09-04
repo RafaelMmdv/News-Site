@@ -36,4 +36,7 @@
     .page-container {
         grid-template-columns: 1fr;
     }
+    .category {
+        font-size: 1.5rem;
+    }
 }
